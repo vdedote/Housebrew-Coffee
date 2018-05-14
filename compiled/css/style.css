@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+  h1.h1-responsive {
+    font-size: 50px !important; } }
+
+html, body, header, #intro {
+  height: 100%;
+  font-family: 'IBM Plex Serif', serif; }
+
+.h1-responsive {
+  font-size: 100px !important; }
+
+.notice {
+  font-size: 10px; }
+
+.top-nav-collapse {
+  background-color: #4e342e; }
+
+#intro {
+  background: url("../img/cover-image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #intro h1 {
+    text-transform: uppercase; }
+
+#estab-date center h3 {
+  text-transform: uppercase;
+  color: #5d4037; }
+
+#brief-history p {
+  font-weight: lighter; }
+
+#best-seller #bseller-cards {
+  font-weight: lighter; }

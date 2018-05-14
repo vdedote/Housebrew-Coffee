@@ -1,0 +1,23 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+@include bs-cover-heading-adjust;
+html,body,header,#intro
+{
+  height: 90%;
+  font-family: 'IBM Plex Serif', serif;
+}
+#intro
+{
+  @include cover-image;
+  h1
+  {
+    text-transform: uppercase;
+    font-size: 80px;
+  }
+}
+// Navbar transparent to this color
+.top-nav-collapse
+{
+  background-color:$primary-color;
+}

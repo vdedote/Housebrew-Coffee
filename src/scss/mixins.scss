@@ -1,0 +1,30 @@
+@mixin cover-heading-adjust
+{
+  @media only screen and (max-width: 600px)
+  {
+    h1.h1-responsive
+    {
+        font-size: 50px !important;
+    }
+  }
+}
+
+@mixin cover-image
+{
+  background: url("../img/cover-image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+@mixin bs-cover-heading-adjust
+{
+  @media only screen and (max-width: 600px)
+  {
+    h1
+    {
+        font-size: 50px !important;
+    }
+  }
+}

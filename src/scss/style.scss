@@ -1,0 +1,64 @@
+@import "mixins";
+@import "variables";
+
+@include cover-heading-adjust;
+
+html,body,header,#intro
+{
+  height: 100%;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.h1-responsive
+{
+  font-size: 100px !important;
+}
+
+// Notice for prices
+.notice
+{
+  font-size: 10px;
+}
+
+// Navbar transparent to this color
+.top-nav-collapse
+{
+  background-color:$primary-color;
+}
+
+#intro
+{
+  @include cover-image;
+  h1
+  {
+    text-transform: uppercase;
+  }
+}
+
+#estab-date
+{
+  center
+  {
+    h3
+    {
+      text-transform:uppercase;
+      color: $secondary-color;
+    }
+  }
+}
+
+#brief-history
+{
+  p
+  {
+    font-weight: lighter;
+  }
+}
+
+#best-seller
+{
+  #bseller-cards
+  {
+    font-weight: lighter;
+  }
+}
